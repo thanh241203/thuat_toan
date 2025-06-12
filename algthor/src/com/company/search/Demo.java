@@ -18,6 +18,7 @@ public class Demo {
     }
 
     // chỉ dùng khi đã sắp xếp
+    // Goi y : bai 35 trong leet code
     private static int binarySearch(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
